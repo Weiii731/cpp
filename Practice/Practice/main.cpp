@@ -1,17 +1,25 @@
 #include <iostream>
-#include <vector>
+#include <sstream>
+#include <string>
+
+using std::istringstream;
 using std::cout;
-using std::vector;
+using std::string;
 
-// TODO: Add PrintBoard function here.
-
-int main() 
+int main ()
 {
-  vector<vector<int>> board {{0, 1, 0, 0, 0, 0},
-                            {0, 1, 0, 0, 0, 0},
-                            {0, 1, 0, 0, 0, 0},
-                            {0, 1, 0, 0, 0, 0},
-                            {0, 0, 0, 0, 1, 0}};
-  // TODO: Call PrintBoard function here.
-  
+  string a = "1 2 3";
+
+  istringstream my_stream(a);
+
+  int n;
+
+  while (my_stream >> n){
+    if (my_stream){
+      cout << "That stream was successful: " << n << "\n";
+    }
+    else {
+      cout << "That stream was NOT successful!" << "\n";
+    }
+  }
 }
