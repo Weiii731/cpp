@@ -1,22 +1,22 @@
-#ifndef car_h
-#define car_h
+
+#ifndef CAR_H
+#define CAR_H
 
 #include <string>
 using std::string;
-using std::cout;
 
 class Car {
     public:
         void PrintCarData();
-        void IncrementDistance();
+        void Incrementdistance();
 
-    // constructor using constructor list
-    Car(string c, int n) : color(c) , number(n) {}
+    // constructor for Car
+    Car(string c, int n) : color(c), number(n) {}
 
     private:
         string color;
-        int distance = 0;
         int number;
-};  
+        int distance = 0;
+};
 
 #endif
