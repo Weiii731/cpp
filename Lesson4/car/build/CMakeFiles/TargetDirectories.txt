@@ -1,0 +1,3 @@
+/Users/wei/Desktop/CS/cpp/Lesson4/car/build/CMakeFiles/rebuild_cache.dir
+/Users/wei/Desktop/CS/cpp/Lesson4/car/build/CMakeFiles/edit_cache.dir
+/Users/wei/Desktop/CS/cpp/Lesson4/car/build/CMakeFiles/main.dir
